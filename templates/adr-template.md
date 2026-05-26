@@ -3,7 +3,7 @@
 ```md
 # ADR-XXX - [Título da Decisão]
 
-## Document Information
+## Informações do Documento
 
 | Campo | Valor |
 |---|---|
@@ -12,20 +12,20 @@
 | Responsável | |
 | Versão | |
 | Data | |
-| Status | Draft / Review / Approved |
+| Status | Rascunho / Revisão / Aprovado |
 
 ---
 
 ## Status
-- Proposed
-- Accepted
-- Rejected
-- Deprecated
-- Superseded
+- Proposto
+- Aceito
+- Rejeitado
+- Descontinuado
+- Substituído
 
 ---
 
-## Context
+## Contexto
 
 Descreva:
 - cenário atual
@@ -44,7 +44,7 @@ Explique:
 
 ---
 
-## Problem
+## Problema
 
 Defina claramente:
 - problema técnico
@@ -52,7 +52,7 @@ Defina claramente:
 - problema financeiro
 - problema estratégico
 
-Detalhar:
+Detalhe:
 - impacto atual
 - criticidade
 - riscos
@@ -61,7 +61,7 @@ Detalhar:
 
 ---
 
-## Decision
+## Decisão
 
 Documente:
 - decisão tomada
@@ -76,7 +76,7 @@ Explique:
 - impacto esperado
 - motivadores da escolha
 
-Sempre considerar:
+Sempre considere:
 - escalabilidade
 - segurança
 - observabilidade
@@ -87,7 +87,7 @@ Sempre considerar:
 
 ---
 
-## Alternatives
+## Alternativas
 
 Para cada alternativa avaliada:
 
@@ -104,7 +104,7 @@ Para cada alternativa avaliada:
 - ...
 - ...
 
-#### Motivo do descarte
+#### Motivo do Descarte
 ...
 
 ---
@@ -122,18 +122,18 @@ Para cada alternativa avaliada:
 - ...
 - ...
 
-#### Motivo do descarte
+#### Motivo do Descarte
 ...
 
 ---
 
-## Risks
+## Riscos
 
 | Risco | Impacto | Probabilidade | Mitigação |
 |---|---|---|---|
 | ... | ... | ... | ... |
 
-Sempre considerar:
+Sempre considere:
 - dependência de fornecedor
 - indisponibilidade
 - acoplamento
@@ -145,7 +145,7 @@ Sempre considerar:
 
 ---
 
-## Consequences
+## Consequências
 
 ### Positivas
 - ...
@@ -179,9 +179,9 @@ Sempre considerar:
 
 ---
 
-## Dependencies
+## Dependências
 
-Listar:
+Liste:
 - sistemas
 - APIs
 - fornecedores
@@ -192,29 +192,29 @@ Listar:
 
 ---
 
-## Open Questions
+## Questões Abertas
 
-Listar:
+Liste:
 - dúvidas abertas
 - pendências
 - validações necessárias
 
 ---
 
-## Next Steps
+## Próximos Passos
 
-Definir:
+Defina:
 - ações necessárias
 - responsáveis
 - aprovações
 - entregas
-- milestones
+- marcos
 
 ---
 
-## References
+## Referências
 
-Relacionar:
+Relacione:
 - reuniões
 - documentos
 - arquiteturas

@@ -1,9 +1,9 @@
-# Template: HLD (High Level Design)
+# Template: HLD (Projeto de Alto Nível)
 
 ```md
 # HLD - [Nome da Solução]
 
-## Document Information
+## Informações do Documento
 
 | Campo | Valor |
 |---|---|
@@ -12,15 +12,15 @@
 | Responsável | |
 | Versão | |
 | Data | |
-| Status | Draft / Review / Approved |
+| Status | Rascunho / Revisão / Aprovado |
 
 ---
 
-# Overview
+# Visão Geral
 
 ## Objetivo
 
-Descrever:
+Descreva:
 - objetivo da solução
 - problema que será resolvido
 - contexto de negócio
@@ -43,7 +43,7 @@ Descrever:
 
 ## Cenário Atual (AS IS)
 
-Descrever:
+Descreva:
 - arquitetura atual
 - limitações
 - gargalos
@@ -54,7 +54,7 @@ Descrever:
 
 ## Cenário Proposto (TO BE)
 
-Descrever:
+Descreva:
 - visão futura
 - melhorias esperadas
 - ganhos operacionais
@@ -63,11 +63,11 @@ Descrever:
 
 ---
 
-# Architecture Overview
+# Visão Geral da Arquitetura
 
 ## Visão Geral da Arquitetura
 
-Explicar:
+Explique:
 - componentes principais
 - comunicação entre sistemas
 - integrações
@@ -76,7 +76,7 @@ Explicar:
 
 ---
 
-## Arquitetura High Level
+## Arquitetura de Alto Nível
 
 ```mermaid
 flowchart LR
@@ -89,7 +89,7 @@ flowchart LR
 
 ---
 
-# Components
+# Componentes
 
 ## Componentes da Solução
 
@@ -125,7 +125,7 @@ flowchart LR
 
 ---
 
-# Integrations
+# Integrações
 
 ## Integrações Envolvidas
 
@@ -138,7 +138,7 @@ flowchart LR
 
 ## Fluxo de Integração
 
-Descrever:
+Descreva:
 1. origem do evento
 2. processamento
 3. transformação
@@ -148,7 +148,7 @@ Descrever:
 
 ---
 
-## Fluxo Mermaid
+## Diagrama de Fluxo
 
 ```mermaid
 sequenceDiagram
@@ -163,11 +163,11 @@ sequenceDiagram
 
 ---
 
-# Data Flow
+# Fluxo de Dados
 
 ## Fluxo de Dados
 
-Descrever:
+Descreva:
 - origem dos dados
 - transformação
 - persistência
@@ -179,13 +179,13 @@ Descrever:
 
 ## Dados Sensíveis
 
-Identificar:
+Identifique:
 - PII
 - dados financeiros
 - documentos
 - credenciais
 
-Definir:
+Defina:
 - criptografia
 - mascaramento
 - retenção
@@ -193,11 +193,11 @@ Definir:
 
 ---
 
-# Security
+# Segurança
 
 ## Segurança
 
-Avaliar:
+Avalie:
 - autenticação
 - autorização
 - segregação de acesso
@@ -213,7 +213,7 @@ Avaliar:
 
 ## LGPD e Compliance
 
-Considerar:
+Considere:
 - retenção de dados
 - consentimento
 - rastreabilidade
@@ -223,23 +223,23 @@ Considerar:
 
 ---
 
-# Observability
+# Observabilidade
 
 ## Observabilidade
 
-Definir:
+Defina:
 - logs
 - métricas
 - tracing
 - alertas
 - dashboards
-- correlation-id
+- Correlation ID
 
 ---
 
 ## Monitoramento
 
-Definir:
+Defina:
 - health check
 - SLA
 - SLO
@@ -248,7 +248,7 @@ Definir:
 
 ---
 
-# NFR
+# RNF
 
 ## Requisitos Não Funcionais
 
@@ -263,7 +263,7 @@ Definir:
 
 ## Performance
 
-Definir:
+Defina:
 - throughput
 - concorrência
 - latência
@@ -273,7 +273,7 @@ Definir:
 
 ## Escalabilidade
 
-Definir:
+Defina:
 - crescimento esperado
 - estratégia horizontal/vertical
 - limites conhecidos
@@ -282,7 +282,7 @@ Definir:
 
 ## Resiliência
 
-Definir:
+Defina:
 - retry
 - DLQ
 - timeout
@@ -292,7 +292,7 @@ Definir:
 
 ---
 
-# Risks
+# Riscos
 
 ## Riscos Arquiteturais
 
@@ -303,16 +303,16 @@ Definir:
 
 ---
 
-## SPOF (Single Point of Failure)
+## SPOF (Ponto Único de Falha)
 
-Listar:
+Liste:
 - componentes críticos
 - dependências críticas
 - riscos de indisponibilidade
 
 ---
 
-# Dependencies
+# Dependências
 
 ## Dependências
 
@@ -323,11 +323,11 @@ Listar:
 
 ---
 
-# Assumptions
+# Premissas
 
 ## Premissas
 
-Listar:
+Liste:
 - decisões assumidas
 - limitações
 - restrições
@@ -335,18 +335,18 @@ Listar:
 
 ---
 
-# Open Questions
+# Questões Abertas
 
 ## Dúvidas Abertas
 
-Listar:
+Liste:
 - gaps
 - pendências
 - validações necessárias
 
 ---
 
-# Roadmap
+# Roteiro
 
 ## Próximos Passos
 
@@ -364,11 +364,11 @@ Listar:
 
 ---
 
-# Recommendations
+# Recomendações
 
 ## Recomendações Arquiteturais
 
-Sugerir:
+Sugira:
 - melhorias
 - desacoplamento
 - observabilidade
@@ -378,11 +378,11 @@ Sugerir:
 
 ---
 
-# Appendix
+# Apêndice
 
 ## Referências
 
-Relacionar:
+Relacione:
 - ADRs
 - diagramas
 - RFCs
@@ -390,3 +390,4 @@ Relacionar:
 - contratos
 - APIs
 - documentação técnica
+```

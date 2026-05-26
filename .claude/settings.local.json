@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\vitor\\\\OneDrive\\\\Documentos\\\\Vitor\\\\Estudo\\\\architecture-workbench\\\\skills\" -Filter \"*.md\")",
+      "Bash(Select-Object Name)"
+    ]
+  }
+}
