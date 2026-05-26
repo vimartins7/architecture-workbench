@@ -3,6 +3,19 @@
 ```md
 # ADR-XXX - [Título da Decisão]
 
+## Document Information
+
+| Campo | Valor |
+|---|---|
+| Projeto | |
+| Sistema | |
+| Responsável | |
+| Versão | |
+| Data | |
+| Status | Draft / Review / Approved |
+
+---
+
 ## Status
 - Proposed
 - Accepted
